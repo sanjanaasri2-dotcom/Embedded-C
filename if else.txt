@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+  int hours;
+  printf("Enter parking hours:");
+  scanf("%d", &hours);
+  if(hours<=2)
+    printf("parking fee = Rs.20");
+  else if(hours<=5)
+    printf("parking fee = Rs.50");
+  else
+    printf("parking fee = Rs.100");
+    return 0;
+} 
