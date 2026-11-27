@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{
+    int temp;
+    printf("Enter room temperature:");
+    scanf("%d", &temp);
+    if(temp<30)
+      printf("Fan On");
+    else
+      printf("Fan Off");
+    return 0;
+}
