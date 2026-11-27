@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+   float temp, pressure;
+   printf("Enter temperature:");
+   scanf("%f", &temp);
+   printf("Enter pressure:");
+   scanf("%f", &pressure);
+   if(temp > 100 || pressure > 50)
+     printf("Machine Off");
+   else
+     printf("Machine On");
+   return 0;
+}
