@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main()
+{
+    int age, distance;
+    float price;
+    printf("enter passenger age:");
+    scanf("%d", &age);
+    printf("Enter distance:");
+    scanf("%d",&distance);
+    price = distance*2;
+    if(age>=60)
+      price = price*0.5;
+    printf("Ticket price = Rs.%.2f",price);
+    return 0;
+}
