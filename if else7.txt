@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+    float percentage;
+    printf("Enter water level percentage:");
+    scanf("%f", &percentage);
+    if(percentage<20)
+      printf("Low");
+    else if(percentage<=80)
+      printf("Normal");
+    else 
+      printf("tank almost full");
+    return 0;
+}
