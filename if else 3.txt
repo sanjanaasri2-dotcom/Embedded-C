@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+    float distance, milleage, price, cost;
+    printf("Enter distance:");
+    scanf("%f", &distance);
+    printf("Enter milleage:");
+    scanf("%f", &milleage);
+    printf("Enter fuel price:");
+    scanf("%f", & price);
+    cost = (distance/milleage)*price;
+    printf("fuel cost = Rs.%.2f",cost);
+    return 0;
+}
